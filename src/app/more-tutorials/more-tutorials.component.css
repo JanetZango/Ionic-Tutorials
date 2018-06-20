@@ -1,0 +1,12 @@
+
+.container{
+    padding:1.5em;
+    width: 60%;
+    margin:0 auto;
+    background: rgb(21,107,216);
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    color:white;
+}
+
+

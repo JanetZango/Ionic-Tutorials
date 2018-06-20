@@ -1,0 +1,15 @@
+<body>
+  <div>
+
+ 
+<div class="scrollmenu">
+  <a routerLink='/home' (click)="viewLink = 'home'" [class.active]="viewLink == 'home'">Home</a>&#160;&#160;
+  <a routerLink='/about' (click)="viewLink = 'about'" [class.active]="viewLink == 'about'">About Ionic</a>&#160;&#160;
+  <a routerLink='/installation' (click)="viewLink ='installation'" [class.active]="viewLink == 'installation'">Installation</a>&#160;&#160;
+  <a routerLink='/tutorial'(click)="viewLink ='tutorials'" [class.active]="viewLink == 'tutorials'">Tutorials</a>
+
+</div>
+
+  <router-outlet></router-outlet>
+</div>
+</body>
